@@ -29,4 +29,6 @@ else {
         console.alert(`To není číslo, prosím zadej číslo příběhu`);
     }
     vekUzivatele = window.prompt(`Zvolil jsi příběh číslo ${storyNumber}!`, 1);
+    console.log(`příběh číslo ${storyNumber} zvolen`);
+    
 }
